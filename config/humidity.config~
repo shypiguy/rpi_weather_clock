@@ -1,0 +1,28 @@
+[wunderground]
+key = get your own key at http://www.wunderground.com/weather/api/d/login.html
+location = IL/O'Fallon.json
+default_metric = relative_humidity
+
+[motor]
+steps = 512
+scale = 133.3333
+normal_delay = 7
+slow_mode_delay = 45
+
+[wait]
+indicator_mode = 4
+slow_mode = 1
+observation = 240
+
+[pins]
+left = 24
+right = 25
+coil_a_1 = 15
+coil_a_2 = 23
+coil_b_1 = 14
+coil_b_2 = 18
+
+[log]
+dir = /home/pi
+file = humidity.log
+rotate_wait = 10800
