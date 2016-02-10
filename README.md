@@ -3,7 +3,7 @@ Analog weather conditions with Raspberry Pi, stepper motor, weather underground 
 
 ## Purpose: 
 
-This program indicates current weather conditions on an analog guage driven by a unipolar stepper motor connected to the GPIO pins of a Raspberry Pi computer.
+This program indicates current weather conditions on an analog gauge driven by a unipolar stepper motor connected to the GPIO pins of a Raspberry Pi computer.
 
 ## User experience: 
 
@@ -49,7 +49,7 @@ The python program reads from the weather_clock.config file (example included in
 
 * What API key to use to connect to wunderground.com, for what location to gather weather observations, and how often to refresh the observation data. **Note** the API key MUST be provided in this config file. You can get your very own personal API key for free from wunderground.com [here](http://www.wunderground.com/weather/api/d/login.html).
 * Information about your stepper motor setup including what GPIO output pins it's connected to, and how many steps in a complete revolution for your motor
-* Information about your guage face. For example, if you use the sample guage face provided, indicator positions 0-100 occupy 3/4 of a revolution, so a complete revolution would be 133.333 positions. If on the other hand you wanted to represent a range from 0-120 in a half revolution of the motor, an entire revolution would be 240 positions.
+* Information about your gauge face. For example, if you use the sample gauge face provided, indicator positions 0-100 occupy 3/4 of a revolution, so a complete revolution would be 133.333 positions. If on the other hand you wanted to represent a range from 0-120 in a half revolution of the motor, an entire revolution would be 240 positions.
 * Information about what GPIO pins your calibration buttons are connected to.
 * Settings for how long to wait between steps (to give a slower or faster movement of the stepper motor) and how long fast or precise modes should persist while the user is calibrating the motor
 * Where to program should write its log file and what that log file should be called
