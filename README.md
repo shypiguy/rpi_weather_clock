@@ -9,7 +9,7 @@ This program indicates current weather conditions on an analog gauge driven by a
 
 When connected to a apropriate circuits including a unipolar stepper motor and two momentary push buttons, the program periodically connects to the Weather Underground API using the API key and loaction URL provided at setup, and turns the stepper motor to point to the value of the selected weather condition. 
 
-Should the stepper motor become "uncalibrated" due to interruption of power to the Raspberry Pi, the user can "zero" the stepper motor with the pair of momentary buttons, fine tuning it's zero position. When the user stops pressing the buttons, the program assumes the motor position to be calibrated and returns the indicator to the latest measurement for the selected weather condition.
+Should the stepper motor become "uncalibrated" due to interruption of power to the Raspberry Pi, the user can "zero" the stepper motor with the pair of momentary buttons, fine tuning its zero position. When the user stops pressing the buttons, the program assumes the motor position to be calibrated and returns the indicator to the latest measurement for the selected weather condition.
 
 The user can select which of 5 current weather conditions measures are displayed by the device by selecting one from the Weather Clock Mode Control web page hosted by the Raspberry Pi. Selecting a measure differnt from the current measurement updates the stepper motor position immediately, ad the Mode Control web page reflects the currently selected measure.
 
